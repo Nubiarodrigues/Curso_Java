@@ -1,0 +1,6 @@
+Classes, objetos e atributos
+
+* classe é a definição do tipo
+ex: trinagulo, produto...
+
+* objeto são instancias da classe.

@@ -1,0 +1,43 @@
+
+* Encapsulamento
+
+	É um princípio que consiste em esconder detalhes de implementação
+	de uma classe, expondo apenas operações seguras e que mantenham
+	os objetos em um estado consistente.
+	
+	
+* Regra de ouro:
+	
+	O objeto deve sempre estar em um estado cosistente, e a própria
+	classe deve garantir isso.
+	
+
+* Conceitos Básicos de Encapsulamento
+
+Ocultar Detalhes Internos:
+
+**Atributos Privados: Os atributos de uma classe são frequentemente 
+declarados como private para que não possam ser acessados diretamente
+de fora da classe. Isso protege os dados da classe e evita que sejam 
+modificados de forma inadequada.
+ 
+ 
+**Fornecer Acesso Controlado:
+
+Métodos Públicos (Getters e Setters): Para acessar e modificar os 
+atributos privados, a classe fornece métodos públicos conhecidos como "getters" e "setters". 
+Esses métodos permitem que outras partes do programa interajam com os dados da classe de 
+forma controlada.
+
+
+
+**Getters(pegar)
+Função: São métodos que permitem acessar o valor de um atributo privado.
+Nome: Normalmente, um getter é nomeado como getAtributo(), onde Atributo 
+é o nome do atributo que está sendo acessado.
+
+
+**Setters(setar)
+Função: São métodos que permitem modificar o valor de um atributo privado.
+Nome: Normalmente, um setter é nomeado como setAtributo(), onde Atributo 
+é o nome do atributo que está sendo alterado.

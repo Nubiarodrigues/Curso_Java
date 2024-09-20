@@ -1,0 +1,28 @@
+package estrutura_repeticao;
+
+import java.util.Scanner;
+
+public class Exemplo_05_curso {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int numeros = sc.nextInt();
+		int contador = 0;
+		int listaNumeros = 0;
+		
+		while(numeros % 2 == 0) {
+			listaNumeros += numeros;
+			contador++;
+		}
+		
+		System.out.println("Números digitados: " + listaNumeros);
+		System.out.println("Quantidade de números pares: " + contador);
+		
+		
+		sc.close();
+		
+
+	}
+
+}

@@ -1,0 +1,25 @@
+package estrutura_repeticao;
+
+import java.util.Scanner;
+
+public class Exemplo_01_curso {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		
+		int input = sc.nextInt();
+		
+		while(input < 0) {
+			int input2 = sc.nextInt();
+			int calc = input + input2;
+			System.out.println(calc);
+		}
+		
+		
+		
+		sc.close();
+
+	}
+
+}

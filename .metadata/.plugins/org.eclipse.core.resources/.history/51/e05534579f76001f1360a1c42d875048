@@ -1,0 +1,31 @@
+package data_hora;
+
+import java.time.Instant;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+
+public class Trabalhando_com_dataHora {
+
+	public static void main(String[] args) {
+		
+		// Instanciação a partir do instante atual "agora"
+		// usando LocalDate, LocaldateTime e Instant a partir do "agora"
+		
+		LocalDate d01 = LocalDate.now();
+		LocalDateTime d02 = LocalDateTime.now();
+		Instant d03 = Instant.now();
+		
+		LocalDate d04 = LocalDate.parse("2024-09-19");
+		LocalDateTime d05 = LocalDateTime.parse("2024-09-19T01:30:26");
+		Instant d06 = Instant.parse("2024-09-19T01:30:26Z");
+		
+		System.out.println("d01 = " + d01);
+		System.out.println("d02 = " + d02);
+		System.out.println("d03 = " + d03); //data-hora de Londres GNT 3
+		System.out.println("d04 = " + d04);
+		System.out.println("d05 = " + d05);
+		System.out.println("d06 = " + d06);
+
+	}
+
+}

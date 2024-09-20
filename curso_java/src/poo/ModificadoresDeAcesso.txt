@@ -1,0 +1,26 @@
+
+
+* Modificadores de acesso
+
+	Os modificadores de acesso em Java são usados para definir a visibilidade 
+	e o nível de acesso dos membros de uma classe (atributos e métodos), 
+	bem como das próprias classes. 
+
+
+1. public
+
+Visibilidade: O membro é acessível de qualquer outro código em qualquer pacote.
+Uso: Geralmente usado para classes, métodos e atributos que devem ser acessíveis amplamente.
+
+2. protected
+Visibilidade: O membro é acessível dentro do mesmo pacote e também em subclasses, mesmo que estejam em pacotes diferentes.
+Uso: Usado quando você quer permitir o acesso a subclasses e a outras classes no mesmo pacote, mas não globalmente.
+
+3. default (ou pacote)
+Visibilidade: O membro é acessível apenas dentro do mesmo pacote. Se nenhum modificador for especificado, é assumido o modificador default.
+Uso: Usado para manter a visibilidade restrita ao pacote atual. É o nível de acesso padrão quando nenhum modificador é especificado.
+
+4. private
+Visibilidade: O membro é acessível apenas dentro da própria classe. Não pode ser acessado diretamente de fora da classe.
+Uso: Usado para encapsular dados e implementar a ocultação de dados, permitindo acesso somente através de métodos públicos (getters e setters).
+

@@ -1,0 +1,30 @@
+package estrutura_repeticao;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Exemplo_04_curso {
+
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		
+		int idade = sc.nextInt();
+		double mediaIdade = 0;
+		
+		while(idade > 0) {
+			int quantidade = idade;
+			System.out.println(quantidade);
+			//mediaIdade += idade / 2;
+			//idade = sc.nextInt();
+		}
+		
+		System.out.printf("Média das idades informadas: %.2f", mediaIdade);
+		
+		
+		sc.close();
+
+	}
+
+}
