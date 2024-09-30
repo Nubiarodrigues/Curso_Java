@@ -1,0 +1,64 @@
+Enumerações:
+
+	É um tipo especial que serve para especificar de forma literal
+um conjunto de constantes relacionadas.
+
+
+Palavra chave em Java: enum
+
+
+Vantagem:
+
+	Melhor semântica, código mais legível e auxiliado
+pelo compilador.
+
+
+Exemplo:
+
+Ciclo de vida de um pedido
+
+Aguardando pagamento -> processando -> enviado -> entregue
+
+
+---------------------------------------------------------------------
+
+Vamos falar um pouco sobre design:
+
+*Categorias de classes:
+	
+	Em um sistema orientado a objetos, de modo geral "tudo" é objeto
+	
+	Por questões de design tais como organização, flexibilidade, reuso,
+delegação, etc., há várias categorias de classes:
+
+*views 
+*controllers 
+*entities
+*services
+*repositories 
+
+
+-------------------------------------------------------------------
+
+Composição:
+
+	É um tipo de associação que permite que um objeto conteha outro
+	
+	Relação "tem-um" ou "tem-vários"
+	
+Vantagens:
+
+*organização: divisão de responsabilidades
+*coesão
+*flexibilidade
+*reuso
+
+Nota: 
+Embora o símbolo UML para composição (todo-parte) seja o diamante
+preto, neste contexto estamos chamando de composição qualquer
+associação tipo "tem-um" e "tem-vários"
+
+
+
+
+
