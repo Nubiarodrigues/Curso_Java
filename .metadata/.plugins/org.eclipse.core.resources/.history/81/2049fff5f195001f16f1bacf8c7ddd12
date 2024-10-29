@@ -1,0 +1,20 @@
+
+O que é herança? 
+	É um tipo de associação que permite que uma classe herde
+todos os dados e comportamento de outra.
+
+
+Definições importantes:
+	* Relação "é-um";
+	* Generalização/especialização;
+	* Superclasse (classe base) / subclasse (classe derivada);
+	* Herança / extensão;
+	* Herança é uma associação entre classes (e não entre objetos)
+	
+
+Vantagens: 
+	Reuso;
+	Polimorfismo.
+
+Sintaxe:
+	class A extends B 

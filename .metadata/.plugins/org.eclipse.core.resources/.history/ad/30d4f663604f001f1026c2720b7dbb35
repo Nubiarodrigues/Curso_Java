@@ -1,0 +1,17 @@
+package estrutura_repeticao;
+
+import java.util.Scanner;
+
+public class Exe_07_curso {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		
+		
+		
+		sc.close();
+
+	}
+
+}

@@ -1,0 +1,38 @@
+package estrutura_repeticao;
+
+import java.util.Scanner;
+
+public class Exe_10_curso {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int preferencia = sc.nextInt();
+		int alcool = 0;
+		int gasolina = 0;
+		int diesel = 0;
+		
+		while (preferencia != 4) {
+			
+			if(preferencia == 1) {
+				alcool += 1;
+			}else if(preferencia == 2) {
+				gasolina += 1;
+			}else if(preferencia == 3) {
+				diesel += 1;
+			}
+			
+			preferencia = sc.nextInt();
+		}
+		
+		System.out.println("MUITO OBRIGADO");
+		System.out.println("Alcool: " + alcool);
+		System.out.println("Alcool: " + gasolina);
+		System.out.println("Alcool: " + diesel);
+		
+		
+		sc.close();
+
+	}
+
+}

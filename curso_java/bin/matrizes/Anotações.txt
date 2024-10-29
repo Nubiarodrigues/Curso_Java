@@ -1,0 +1,16 @@
+
+Matrizes são arranjos (arrays) bidimensionais
+atenção: "vetor dos vetores"
+
+Arranjo (array) é uma estrutura de dados:
+*homogênea (dados do mesmo tipo)
+*ordenada (elementos acessados por meio de posições
+*alocada de uma vez só, em um bloco contíguo de memória
+
+
+Vantagens:
+*acesso imediato aos elementos pela sua posição
+
+Desvatagens:
+*tamanho fixo
+*dificuldade para se realizar inserções e deleções

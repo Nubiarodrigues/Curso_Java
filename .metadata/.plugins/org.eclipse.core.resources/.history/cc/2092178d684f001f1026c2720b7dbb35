@@ -1,0 +1,23 @@
+package estrutura_repeticao;
+
+import java.util.Scanner;
+
+public class Exemplo_05_curso {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int numeros = sc.nextInt();
+		int contador = 0;
+		
+		while(numeros % 2 == 0) {
+			contador++;
+		}
+		
+		
+		sc.close();
+		
+
+	}
+
+}
