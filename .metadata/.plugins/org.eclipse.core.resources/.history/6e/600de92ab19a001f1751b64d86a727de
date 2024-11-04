@@ -1,0 +1,5 @@
+package herenca.upcasting_downcasting;
+
+public class BusinessAccount {
+
+}

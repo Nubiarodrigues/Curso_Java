@@ -1,0 +1,20 @@
+O que é polimorfismo?
+
+	Em poo, polimorfimso é um recurso que permite que variáveis de um mesmo tipo mais 
+	genérico possam apontar para objetos de tipos especificos diferentes, tendo assim
+	comportamentos diferentes comforme cada tipo específico.
+
+Ex: Account x = new Account(1020, "Alex", 1000.0);
+	Account y = new SavingsAccount(1023, "Maria", 1000.0, 0.01);
+	
+	x.withdraw(50.0);
+	y.withdraw(50.0);
+	
+
+Importante entender:
+	*A associação do tipo especifico com o tipo genérico é feita em tempo de execução
+	(upcasting).
+	
+	*O compilador não sabe para qual tipo especifico a chamada do método Withdraw está sendo feita 
+	(ele só sabe que são duas variáveis tipoAccount)
+

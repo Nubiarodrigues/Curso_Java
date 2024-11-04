@@ -1,0 +1,11 @@
+O que é polimorfismo?
+
+	Em poo, polimorfimso é um recurso que permite que variáveis de um mesmo tipo mais 
+	genérico possam apontar para objetos de tipos especificos diferentes, tendo assim
+	comportamentos diferentes comforme cada tipo específico.
+
+Ex: Account x = new Account(1020, "Alex");
+	Account y = new SavingsAccount(1023, "Maria", 0.01);
+	
+	x.withdraw(50.0);
+	y.withdraw(50.0);

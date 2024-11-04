@@ -1,0 +1,5 @@
+package polimorfismo.problema1.entities;
+
+public class OutsourcedEmployee {
+
+}
