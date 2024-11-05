@@ -1,9 +1,0 @@
-package herenca;
-
-public class BusinessAccount extends Account {
-	
-	
-	
-	
-
-}

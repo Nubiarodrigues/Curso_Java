@@ -1,0 +1,28 @@
+package uri;
+
+import java.util.Scanner;
+
+public class exe_1046 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int start = sc.nextInt();
+		int termination = sc.nextInt();
+		
+		
+		double hoursPlay = start / termination; 
+		
+		System.out.println("O JOGO DUROU " + start  + " HORAS");
+		
+		
+		
+		
+		
+		
+		
+		sc.close();
+
+	}
+
+}

@@ -1,0 +1,44 @@
+package uri;
+
+import java.util.Scanner;
+
+public class exe_1049 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+
+		String animal;
+		
+		String vertebrateType;
+		
+		String invertebrateType;
+		
+		String response = sc.nextLine();
+		
+		
+		if(response == "vertebrado") {
+			response = sc.nextLine();
+			
+			if(response == "mamifero") {
+				response = sc.nextLine();
+				
+					if(response == "onivoro") {
+						System.out.println("Homem");
+					} 
+					
+					if (response == "herbivoro") {
+						System.out.println("Vaca");
+					}
+			}
+		}
+		
+		
+		
+		
+		
+		
+		sc.close();
+
+	}
+
+}

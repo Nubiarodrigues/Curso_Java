@@ -3,7 +3,6 @@
     <fullyQualifiedTypeName name="problema6_poo.ConversorMoedas"/>
     <fullyQualifiedTypeName name="exemplo1_construtores.Produto"/>
     <fullyQualifiedTypeName name="problema7_poo.Conta"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
     <fullyQualifiedTypeName name="problema_exemplo_list.Employee"/>
     <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
@@ -20,7 +19,11 @@
     <fullyQualifiedTypeName name="polimorfismo.problema1.entities.OutsourcedEmployee"/>
     <fullyQualifiedTypeName name="polimorfismo.problema1.entities.Employee"/>
     <fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
-    <fullyQualifiedTypeName name="java.util.Locale"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="polimorfismo.classesAbstratas.Account"/>
+    <fullyQualifiedTypeName name="polimorfismo.classesAbstratas.SavingsAccount"/>
+    <fullyQualifiedTypeName name="polimorfismo.classesAbstratas.BusinessAccount"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.Locale"/>
 </qualifiedTypeNameHistroy>

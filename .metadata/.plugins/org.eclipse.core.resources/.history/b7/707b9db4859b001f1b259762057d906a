@@ -1,0 +1,29 @@
+package uri;
+
+import java.util.Scanner;
+
+public class exe_1049 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+
+		
+		String response = sc.nextLine();
+		
+		
+		if(response == "vertebrado") {
+			System.out.println("hello");
+			
+		
+		}
+		
+		
+		
+		
+		
+		
+		sc.close();
+
+	}
+
+}

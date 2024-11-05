@@ -1,0 +1,5 @@
+package polimorfismo.classesMetodosAbstratos.metodosAbstratos;
+
+public enum Color {
+
+}
