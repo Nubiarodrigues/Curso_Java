@@ -1,0 +1,11 @@
+
+Trabalhando com arquivos:
+
+Classes que vão ser usadas:
+
+	*File - representação abstrata de um arquivo e seu caminho
+	*Scanner - leitor de texto
+	*IOException (Exception)
+	
+	
+ 

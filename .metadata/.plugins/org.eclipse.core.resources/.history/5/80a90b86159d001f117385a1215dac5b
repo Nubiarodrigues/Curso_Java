@@ -1,0 +1,17 @@
+package arquivos;
+
+import java.util.Scanner;
+
+public class InformacoesDoCaminhoArquivo {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		
+		
+		
+		sc.close();
+
+	}
+
+}

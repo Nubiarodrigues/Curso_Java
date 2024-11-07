@@ -1,0 +1,19 @@
+package tratamentos_de_excecoes;
+
+import java.util.Scanner;
+
+public class ExemploPratico {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		
+		
+		
+		
+		
+		sc.close();
+
+	}
+
+}

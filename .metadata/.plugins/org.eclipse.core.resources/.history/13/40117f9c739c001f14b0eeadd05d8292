@@ -1,0 +1,5 @@
+package tratamentos_de_excecoes.problema1.model.exceptions;
+
+public class DomainException {
+
+}

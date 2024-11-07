@@ -1,0 +1,18 @@
+package tratamentos_de_excecoes.problema1.model.entities;
+
+public class Account {
+	
+	private Integer number; // número da conta
+	private String holder; // titular
+	private Double balance; // saldo
+	
+	
+	public Account(Integer number, String holder, Double balance) {
+		this.number = number;
+		this.holder = holder;
+		this.balance = balance;
+	}
+	
+
+	
+}

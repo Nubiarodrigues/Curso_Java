@@ -1,0 +1,25 @@
+
+Trabalhando com arquivos:
+
+Classes que vão ser usadas:
+
+	*File - representação abstrata de um arquivo e seu caminho
+	
+	*Scanner - leitor de texto
+	
+	*IOException (Exception)
+	
+	*FileReader - stream de leitura de caracteres a partir de arquivos (sequência)
+	
+	*BufferedReader (mais rápido): instanciado a partir do fileReader
+
+Bloco try-with-resources
+	*É um bloco  que declara um ou mais recursos, e garante que esses recursos
+	serão fechados ao final do bloco.
+	
+	*Disponível no Java 7 em diante.
+	
+	
+	
+
+ 

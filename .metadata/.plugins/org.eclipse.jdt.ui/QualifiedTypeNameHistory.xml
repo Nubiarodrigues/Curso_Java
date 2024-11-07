@@ -19,11 +19,19 @@
     <fullyQualifiedTypeName name="polimorfismo.problema1.entities.OutsourcedEmployee"/>
     <fullyQualifiedTypeName name="polimorfismo.problema1.entities.Employee"/>
     <fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
-    <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
     <fullyQualifiedTypeName name="polimorfismo.classesAbstratas.Account"/>
     <fullyQualifiedTypeName name="polimorfismo.classesAbstratas.SavingsAccount"/>
     <fullyQualifiedTypeName name="polimorfismo.classesAbstratas.BusinessAccount"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
+    <fullyQualifiedTypeName name="java.lang.IllegalAccessException"/>
+    <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
+    <fullyQualifiedTypeName name="tratamentos_de_excecoes.problema_exemplo.solucao_boa.model.exceptions.DomainException"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="tratamentos_de_excecoes.problema1.model.entities.Account"/>
+    <fullyQualifiedTypeName name="tratamentos_de_excecoes.problema1.model.exceptions.DomainException.SaldoInsuficienteException"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.util.Locale"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
 </qualifiedTypeNameHistroy>

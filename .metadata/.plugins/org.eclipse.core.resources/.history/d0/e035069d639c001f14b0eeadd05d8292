@@ -1,0 +1,5 @@
+package tratamentos_de_excecoes.problema_exemplo.model.entities;
+
+public class Reservation {
+
+}
