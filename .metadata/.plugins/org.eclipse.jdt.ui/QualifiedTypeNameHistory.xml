@@ -32,6 +32,8 @@
     <fullyQualifiedTypeName name="tratamentos_de_excecoes.problema1.model.entities.Account"/>
     <fullyQualifiedTypeName name="tratamentos_de_excecoes.problema1.model.exceptions.DomainException.SaldoInsuficienteException"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="java.util.Locale"/>
     <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="java.util.Locale"/>
+    <fullyQualifiedTypeName name="arquivos.problema1.entities.Product"/>
+    <fullyQualifiedTypeName name="java.lang.Double"/>
 </qualifiedTypeNameHistroy>

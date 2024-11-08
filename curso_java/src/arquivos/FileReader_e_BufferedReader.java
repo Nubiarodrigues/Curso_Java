@@ -7,6 +7,7 @@ import java.io.IOException;
 public class FileReader_e_BufferedReader {
 
 	public static void main(String[] args) {
+		
 		String path = "D:\\temp\\in.txt"; // Caminho do arquivo de entrada
 		BufferedReader br = null;
 		FileReader fr = null;
