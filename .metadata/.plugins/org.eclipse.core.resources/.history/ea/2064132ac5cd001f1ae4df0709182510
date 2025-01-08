@@ -1,0 +1,27 @@
+package interfaces.problema1_semInterface.model.services;
+
+import interfaces.problema1_semInterface.model.entities.CarRental;
+import interfaces.problema1_semInterface.model.entities.Invoice;
+
+public class RentalService {
+	
+	private Double pricePerDay;
+	private Double pricePerHour;
+	
+	private BrazilTaxService taxService;
+
+	public RentalService(Double pricePerDay, Double pricePerHour, BrazilTaxService taxService) {
+		this.pricePerDay = pricePerDay;
+		this.pricePerHour = pricePerHour;
+		this.taxService = taxService;
+	}
+	
+	// função que vai processar a fatura
+	public void processInvoice(CarRental carRental) {
+		
+		carRental.setInvoice(new Invoice());
+	}
+	
+	
+
+}

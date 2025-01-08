@@ -1,0 +1,19 @@
+package interfaces.problema1_semInterface.model.entities;
+
+import java.time.LocalDateTime;
+
+public class CarRental {
+	
+	private LocalDateTime start;
+	private LocalDateTime fisish;
+	
+	public CarRental() {}
+
+	public CarRental(LocalDateTime start, LocalDateTime fisish) {
+		this.start = start;
+		this.fisish = fisish;
+	}
+	
+	
+
+}

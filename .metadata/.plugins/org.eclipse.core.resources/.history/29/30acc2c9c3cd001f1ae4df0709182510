@@ -1,0 +1,5 @@
+package interfaces.problema1_semInterface.model.services;
+
+public class BrazilTaxService {
+
+}
